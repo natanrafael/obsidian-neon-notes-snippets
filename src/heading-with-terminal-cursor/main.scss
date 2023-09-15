@@ -1,0 +1,19 @@
+@for $i from 1 through 6 {
+    .HyperMD-header-#{$i}.cm-line>.cm-header,
+    .HyperMD-header-#{$i}.cm-line>.cm-header .cm-header-#{$i} {
+        &:after {
+            animation: cursor-animation 2.5s infinite steps(1, end);
+            content: "_";
+        }
+    }
+}
+
+@keyframes cursor-animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
