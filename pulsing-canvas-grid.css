@@ -1,0 +1,1 @@
+.canvas-wrapper .canvas-background>pattern>circle{animation:pulse-effect 10s infinite}@keyframes pulse-effect{0%,50%,100%{fill:var(--canvas-dot-pattern)}25%{fill:var(--color-accent)}}
