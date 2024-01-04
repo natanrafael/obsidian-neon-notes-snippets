@@ -1,7 +1,10 @@
 .inline-title {
-    animation:
-        flicky 20s step-end infinite,
-        glitch 20s step-end infinite;
+    .is-live-preview &,
+    .markdown-reading-view & {
+        animation:
+            flicky 20s step-end infinite,
+            glitch 20s step-end infinite;
+    }
 }
 
 @keyframes glitch {
