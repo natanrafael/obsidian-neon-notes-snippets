@@ -1,9 +1,11 @@
 .inline-title {
     .is-live-preview &,
     .markdown-reading-view & {
-        animation:
-            flicky 20s step-end infinite,
-            glitch 20s step-end infinite;
+        .theme-dark & {
+            animation:
+                flicky 20s step-end infinite,
+                glitch 20s step-end infinite;
+        }
     }
 }
 
